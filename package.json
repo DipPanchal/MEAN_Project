@@ -3,7 +3,7 @@
   "scripts": {
  
    
-  "start": "nodemon server8.js"
+  "start": "node server8.js"
  
   },
  
