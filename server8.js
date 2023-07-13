@@ -15,7 +15,7 @@ app.use("/admin",productRoute)
 
 
 //moongoose connect
-mongoose.connect("mongodb://127.0.0.1:27017/CRUD").then( () => {
+mongoose.connect("mongodb+srv://panchaldip029:avvDovev0I3CBeuo@cluster0.i7g83up.mongodb.net/").then( () => {
     console.log("dbConnected successfully.");
 }).catch(()=>{
     console.log("Db not connected");
